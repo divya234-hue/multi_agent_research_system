@@ -1,1 +1,8 @@
 .env
+@(
+    ".venv/"
+    "__pycache__/"
+    "*.py[cod]"
+    ".env"
+    ".streamlit/secrets.toml"
+) | Add-Content .gitignore
